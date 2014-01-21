@@ -1,0 +1,10 @@
+ServerName: mocksmtpd
+Port: 25
+RequestTimeout: 120
+LineLengthLimit: 1024
+LogLevel: INFO
+
+LogFile: /var/log/mocksmtpd.log
+PidFile: /var/run/mocksmtpd.pid
+InboxDir: /var/tmp/mocksmtpd
+Umask: 2
